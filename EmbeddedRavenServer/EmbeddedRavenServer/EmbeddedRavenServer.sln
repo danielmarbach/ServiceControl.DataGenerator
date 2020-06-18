@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddedRavenServer", "EmbeddedRavenServer.csproj", "{5D277966-0714-464F-B5ED-09E11FED4AD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D277966-0714-464F-B5ED-09E11FED4AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D277966-0714-464F-B5ED-09E11FED4AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D277966-0714-464F-B5ED-09E11FED4AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D277966-0714-464F-B5ED-09E11FED4AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE3D0788-B06B-4815-8AA4-61CF72993F0A}
+	EndGlobalSection
+EndGlobal
