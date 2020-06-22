@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net462</TargetFramework>
     <OutputType>Exe</OutputType>
+    <RootNamespace>EmbeddedRavenServer</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

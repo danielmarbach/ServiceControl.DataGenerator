@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>EmbeddedRavenServer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RavenDB.Embedded" Version="4.2.103" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="license.json" />
+    <EmbeddedResource Include="license.json" />
+  </ItemGroup>
+
+</Project>

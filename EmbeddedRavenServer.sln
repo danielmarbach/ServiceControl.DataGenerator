@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddedRavenServer", "EmbeddedRavenServer\EmbeddedRavenServer.csproj", "{5D277966-0714-464F-B5ED-09E11FED4AD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Embedded35RavenServer", "Embedded35RavenServer\Embedded35RavenServer.csproj", "{5D277966-0714-464F-B5ED-09E11FED4AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Embedded4xRavenServer", "Embedded4xRavenServer\Embedded4xRavenServer.csproj", "{CC8BB6A0-4D81-4439-AF63-F228A9160EAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5D277966-0714-464F-B5ED-09E11FED4AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D277966-0714-464F-B5ED-09E11FED4AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D277966-0714-464F-B5ED-09E11FED4AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8BB6A0-4D81-4439-AF63-F228A9160EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8BB6A0-4D81-4439-AF63-F228A9160EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8BB6A0-4D81-4439-AF63-F228A9160EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8BB6A0-4D81-4439-AF63-F228A9160EAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

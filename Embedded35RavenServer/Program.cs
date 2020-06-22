@@ -15,13 +15,15 @@ namespace EmbeddedRavenServer
         {
             Console.WriteLine("Select RavenDB data directory from the open file dialog...");
 
-            var openFile = new OpenFileDialog();
-            openFile.Title = "Select Raven Database Directory";
-            openFile.Multiselect = false;
-            openFile.ValidateNames = false;
-            openFile.CheckFileExists = false;
-            openFile.CheckPathExists = false;
-            openFile.FileName = "Select Directory";
+            var openFile = new OpenFileDialog
+            {
+                Title = "Select Raven Database Directory",
+                Multiselect = false,
+                ValidateNames = false,
+                CheckFileExists = false,
+                CheckPathExists = false,
+                FileName = "Select Directory",
+            };
             var openFileResult = openFile.ShowDialog();
 
             if(openFileResult != DialogResult.OK)
